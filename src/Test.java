@@ -16,7 +16,6 @@ public class Test {
     public static void main(String[] args) {
 
         String[] arrayCityNames = {"Roma", "Milano", "Genova"};
-
         List<String> cityNames = Arrays.asList(arrayCityNames);
         //cityNames.add("Palermo"); Non si può aggiungere una nuova città alla fine dell'array perché asList ritorna un array con una lunghezza fissa.
         //Infatti con asList creo una immutable List.
