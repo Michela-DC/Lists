@@ -20,7 +20,7 @@ public class Test {
         //cityNames.add("Palermo"); Non si può aggiungere una nuova città alla fine dell'array perché asList ritorna un array con una lunghezza fissa.
         //Infatti con asList creo una immutable List.
 
-        cityNames.set(1, "Tegucigalpa");
+        cityNames.set(1, "Tegucigalpa"); //The set() method of java.util.ArrayList class is used to replace the element at the specified position in the list with the specified element.
 
         System.out.println("Nomi di città:");
 
